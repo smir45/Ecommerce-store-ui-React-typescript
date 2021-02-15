@@ -1,0 +1,25 @@
+.topbar-main-container{
+    display: flex;
+    border: 1px solid #505050;
+    padding: 5px;
+}
+
+.logo-section{
+    width: 40%;
+    margin-left: auto;
+    justify-content: right;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    background: url('../assets/navbarlogo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-icons{
+    border: 1px solid red;
+    width: 50%;
+    margin-right: auto;
+}
