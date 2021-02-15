@@ -1,25 +1,30 @@
 .topbar-main-container{
     display: flex;
-    border: 1px solid #505050;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0  0 10px rgba(0, 0, 0, .2);
     padding: 5px;
+    justify-content: space-around;
 }
 
-.logo-section{
-    width: 40%;
-    margin-left: auto;
-    justify-content: right;
-}
+
 
 .logo{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     background: url('../assets/navbarlogo.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .social-icons{
-    border: 1px solid red;
-    width: 50%;
-    margin-right: auto;
+    margin-top: auto;
+    padding: 5px;
+    transition: all .5s ease;
+}
+
+
+
+.icons-social-nav{
+    font-size: 25px;
+    margin: 10px;
 }
