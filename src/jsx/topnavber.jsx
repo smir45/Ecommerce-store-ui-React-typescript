@@ -18,8 +18,14 @@ export default function TopNavbar() {
         >
           <FaFacebook className="icons-social-nav" />
         </a>
+        <a
+          href="https://www.instagram.com/pitchlab99/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram className="icons-social-nav" />
+        </a>
 
-        <FaInstagram className="icons-social-nav" />
         <FaTwitter className="icons-social-nav" />
       </div>
     </div>

@@ -16,7 +16,14 @@
   background: url("../assets/navbarlogo.png");
   background-size: cover;
   background-repeat: no-repeat;
+  /* animation: Rotate 10s infinite; */
 }
+/* 
+@keyframes Rotate{
+  100%{
+    transform: rotateZ(360deg);
+  }
+} */
 
 .social-icons {
   margin-top: auto;

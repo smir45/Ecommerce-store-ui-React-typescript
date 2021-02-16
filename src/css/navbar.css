@@ -4,8 +4,8 @@
   height: 80vh;
   background-attachment: fixed;
   background-position: center;
-  color: #f3f3f3;
   background-repeat: no-repeat;
+  color:#fff;
   background-image: linear-gradient(
       to right,
       rgba(56, 58, 144, .7),
@@ -13,36 +13,36 @@
     ),
     url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
 }
+/* ------------------------------------------------------------------------------------------ */
 
-.navbar-links{
-    text-decoration: none;
-    color: #f3f3f3;
-    margin: 15px;
-    padding: 20px;
-    font-size: 25px;    
-    transition: all .5s ease;
-}
-.navbar-links:hover{
-    background: rgba(0, 0, 0, .2);
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    
+.navbar-mid-components{
+    height: 67vh;
 }
 
-.navlinks{
-    height: fit-content;
-    width: fit-content;
-    margin-top: 35%;
-    padding: 10px;
+.navbar-section-bottom-container{
+    display: flex;
+    padding: 5px;
+}
+.nav-links-container{
     margin-left: auto;
+    width: fit-content;
+    padding: 13px;
+    background: rgba(255, 255, 255, .45);
 }
 
-#Active{
-    background: rgba(0, 0, 0, .2);
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+.navbarlinks{
+    padding: 10px;
+    margin: 13px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    transition: all .5s ease;
+    
+
 }
 
-.trial{
-    height: 100vh;
+.navbarlinks:hover{
+    color: #fff;
+    
 }
