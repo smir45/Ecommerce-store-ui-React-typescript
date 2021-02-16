@@ -5,44 +5,92 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  color:#fff;
+  color: #fff;
   background-image: linear-gradient(
       to right,
-      rgba(56, 58, 144, .7),
-      rgba(56, 58, 96, .95)
+      rgba(56, 58, 144, 0.7),
+      rgba(56, 58, 96, 0.95)
     ),
     url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
 }
 /* ------------------------------------------------------------------------------------------ */
 
-.navbar-mid-components{
-    height: 67vh;
+.navbar-mid-components {
+  height: 75vh;
 }
 
-.navbar-section-bottom-container{
-    display: flex;
-    padding: 5px;
+.navbar-section-bottom-container {
+  display: flex;
+  padding: 5px;
 }
-.nav-links-container{
-    margin-left: auto;
-    width: fit-content;
-    padding: 13px;
-    background: rgba(255, 255, 255, .45);
-}
-
-.navbarlinks{
-    padding: 10px;
-    margin: 13px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #000;
-    text-transform: uppercase;
-    transition: all .5s ease;
-    
-
+.nav-links-container {
+  margin-left: auto;
+  width: fit-content;
+  padding: 13px;
+  background: rgba(255, 255, 255, 0.45);
 }
 
-.navbarlinks:hover{
-    color: #fff;
-    
+.navbarlinks {
+  padding: 10px;
+  margin: 13px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+
+.navbarlinks:hover {
+  color: #fff;
+}
+.caption-heading {
+  padding: 15px;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 25px;
+  text-align: left;
+  margin: 0;
+}
+.pitchlab {
+  font-size: 4em;
+  text-align: left;
+  padding: 20px;
+  line-height: 20px;
+  margin: 15 0;
+}
+.heading-color {
+  color: goldenrod;
+  text-decoration: underline;
+}
+.paragraph {
+  line-height: 35px;
+  color: #f1f1f1;
+}
+.mid-1 {
+  width: 50%;
+  padding: 35px 0 35px 85px;
+  transition: all 0.5s ease-in;
+}
+.mid-2 {
+  width: 50%;
+}
+
+.get-started {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.45);
+  line-height: 75px;
+  transition: all 0.5s ease;
+}
+.get-started:hover {
+  color: #fff;
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.5),
+    rgba(56, 58, 96, 0.95)
+  );
+  cursor: pointer;
+  transform: scale(2);
 }
