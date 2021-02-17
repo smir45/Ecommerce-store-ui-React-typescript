@@ -15,9 +15,15 @@
     
     <title>React App</title>
   </head>
-  <body>
+  <body onload="script();">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    
+    <script>
+      function script(){
+     setTimeout(function(){
+         document.getElementById('elementToMove').style.left = '1000px';
+     }, 2000);
+}
+    </script>
   </body>
 </html>

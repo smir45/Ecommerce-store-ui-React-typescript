@@ -17,6 +17,7 @@
 
 .navbar-mid-components {
   height: 75vh;
+  display: flex;
 }
 
 .navbar-section-bottom-container {
@@ -66,15 +67,29 @@
   line-height: 35px;
   color: #f1f1f1;
 }
-.mid-1 {
+#mid-1 {
   width: 50%;
   padding: 35px 0 35px 85px;
   transition: all 0.5s ease-in;
 }
 .mid-2 {
   width: 50%;
+  
 }
 
+.kerasvg{
+  height: 400px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  /* background: url('../assets/rotation.svg'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+
+}
 .get-started {
   text-decoration: none;
   color: #fff;
@@ -93,4 +108,22 @@
   );
   cursor: pointer;
   transform: scale(2);
+}
+
+.kerasvg{
+  animation: Rotation 60s infinite;
+}
+
+@keyframes Rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.trial{
+  height: 100vh;
 }
