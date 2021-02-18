@@ -127,3 +127,73 @@
 .trial{
   height: 100vh;
 }
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-width: 600px){
+  /* some CSS here */
+  .background-sec{
+    width: 100%;
+    height: 55vh;
+    margin-top: 3em;
+  }
+  .navbar-mid-components {
+    height: 60vh;
+    display: flex;
+    border: 1px solid red;
+  }
+  .navbar-section-bottom-container{
+    width: 500px;
+    margin-left: 5%;
+  }
+  .nav-links-container{
+    margin-top: -5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-mid-components{
+    width: 40%;
+    border: 5px solid black;
+    display: inline;
+  }
+  .pitchlab{
+    font-size: 2em;
+    padding: 5px;
+    margin-left: -18%;
+    margin-top: -15%;
+  }
+  .caption-heading{
+    font-size: 19px;
+    margin-left: -22%;
+    width: 500px;
+  }
+  .caption-heading h1{
+    font-size: 20px;
+    width: 80%;
+    display: flex;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  .kerasvg{
+    display: none;
+  }
+}
+@media screen and (max-width:320px){
+  .background-sec{
+    width: 100%;
+  }
+  .navbar-mid-components{
+    border: 1px solid red;
+  }
+  .navbar-section-bottom-container{
+    border: 1px solid red;
+  }
+  .nav-links-container{
+    margin-left: 3%;
+  }
+  .caption-heading{
+    width: 200px;
+    font-size: 12px;
+    text-align:left;
+    border: 1px solid red;
+  }
+}

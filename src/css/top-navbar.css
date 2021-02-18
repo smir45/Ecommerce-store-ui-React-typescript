@@ -19,12 +19,9 @@
   background-repeat: no-repeat;
 }
 
-
 .social-icons {
   margin-top: auto;
   padding: 5px;
-  
-  
 }
 
 .icons-social-nav {
@@ -36,4 +33,35 @@
 }
 .icons-social-nav:hover{
   color: #000;
+}
+/* 320 px responsive*/
+@media (max-width:320px){
+  .topbar-main-container{
+  padding: 5px;
+  justify-content: space-between;
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .social-icons {
+    margin-top: auto;
+    padding: 5px;
+  }
+}
+@media screen and (max-width:600px){
+  .topbar-main-container{
+    height: 30px;
+    justify-content: space-between;
+  }
+  .logo{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+  }
+  .social-icons{
+    margin-top: -12px;
+    margin-right: 10px;
+  }
 }
