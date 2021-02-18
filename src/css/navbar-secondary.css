@@ -1,0 +1,45 @@
+.secondnvabar-main-container{
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+}
+
+.logo-container{
+    width: 50%;
+}
+
+.nav-links-secondary{
+    display: flex;
+    width: 50%;
+}
+.navbar-links-inner{
+    width: fit-content;
+    margin-left: auto;
+    padding-top: 15px;
+    margin-right: 35px;
+}
+.logo-secondary{
+    background: url('../assets/pitchlab-secondary.png');
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.second-navlinks{
+    padding: 10px;
+    margin: 15px;
+    text-decoration: none;
+    color: #505050;
+    text-transform: uppercase;
+    font-size: 17px;
+    transition: all .5 ease;
+}
+
+.second-navlinks:hover{
+    color: #000;
+}
