@@ -4,6 +4,7 @@ import Navbar from './navbar';
 import HomeService from './homeservices';
 import OurClients from './ourclients';
 import Banner from './banner';
+import SecFooter from './secondfooter';
 
 export default function Home(){
     return(
@@ -13,6 +14,7 @@ export default function Home(){
             <HomeService />
             <OurClients/>
             <Banner/>
+            <SecFooter/>
         </div>
     );
 }
