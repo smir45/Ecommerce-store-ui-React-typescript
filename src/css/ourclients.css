@@ -1,0 +1,82 @@
+.logos-1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 20px;
+  background: url('../assets/navbarlogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logos-2 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 20px;
+  background: url('../assets/navbarlogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logos-3 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 20px;
+  background: url('../assets/navbarlogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logos-4 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 20px;
+  background: url('../assets/navbarlogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logos-5 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 20px;
+  background: url('../assets/navbarlogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logos-6 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 20px;
+  background: url('../assets/navbarlogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.clients-main-container {
+  background: #f3f3f3;
+  padding: 25px;
+}
+
+.logo-section{
+    display: flex;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.link-pic{
+    text-decoration: none;
+    color: #505050;
+}

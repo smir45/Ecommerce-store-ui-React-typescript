@@ -81,8 +81,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-
-      <div className="trial"></div>
     </div>
   );
 }

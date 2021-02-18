@@ -36,4 +36,5 @@
 }
 .icons-social-nav:hover{
   color: #000;
+  cursor: pointer;
 }
