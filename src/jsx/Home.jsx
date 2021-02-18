@@ -3,6 +3,7 @@ import TopNavbar from './topnavber';
 import Navbar from './navbar';
 import HomeService from './homeservices';
 import OurClients from './ourclients';
+import Banner from './banner';
 
 export default function Home(){
     return(
@@ -11,6 +12,7 @@ export default function Home(){
             <Navbar />
             <HomeService />
             <OurClients/>
+            <Banner/>
         </div>
     );
 }
