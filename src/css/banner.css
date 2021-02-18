@@ -1,0 +1,52 @@
+.banner-main-container{
+    background: url("https://i.imgur.com/1bgDZoo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-elements{
+    padding: 15px;
+    background: rgba(0, 0, 0, .5);
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.title-banner{
+    text-align: center;
+    font-size: 3em;
+    color: #f3f3f3;
+    font-weight: 400;
+}
+.subtitle-banner-div{
+    color: #f3f3f3;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.btn-banner{
+    border: 1px solid #f3f3f3;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: auto;
+    width: 400px;
+    margin-right: auto;
+    text-decoration: none;
+    transition: all .5s ease;
+    color: #f3f3f3;
+}
+.button{
+    display: flex;
+    padding: 20px;
+
+    
+}
+.btn-banner:hover{
+    border: 1px solid goldenrod;
+    color: goldenrod;
+}
