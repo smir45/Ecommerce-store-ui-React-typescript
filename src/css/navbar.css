@@ -126,6 +126,7 @@
 .trial{
   height: 100vh;
 }
+/* @media screen and (max-height: ) */
 
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-width: 600px){
@@ -138,7 +139,6 @@
   .navbar-mid-components {
     height: 60vh;
     display: flex;
-    border: 1px solid red;
   }
   .navbar-section-bottom-container{
     width: 500px;

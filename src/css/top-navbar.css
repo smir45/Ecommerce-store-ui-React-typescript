@@ -36,25 +36,30 @@
   cursor: pointer;
 }
 /* 320 px responsive*/
-@media (max-width:320px){
+@media only screen and (min-width:320px) and (max-width:480px){
   .topbar-main-container{
   padding: 5px;
-  justify-content: space-between;
+  position: relative;
+  display: flex;
+  width: auto;
+  justify-content:space-between;
+  /* border: 1px solid red; */
   }
-  .logo {
-    height: 50px;
-    width: 50px;
+  .logo{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
   }
-  
-  .social-icons {
-    margin-top: auto;
-    padding: 5px;
+  .social-icons{
+    margin-top: -12px;
+    margin-right: 10px;
   }
 }
-@media screen and (max-width:600px){
+@media only screen and (min-width:480px) and (max-width:600px){
   .topbar-main-container{
-    height: 30px;
     justify-content: space-between;
+    position: relative;
+    /* border: 1px solid red; */
   }
   .logo{
     height: 40px;
