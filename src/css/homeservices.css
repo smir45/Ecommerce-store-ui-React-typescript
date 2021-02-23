@@ -97,3 +97,21 @@
     margin-left: auto;
     margin-right: auto;
 }
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .services-section{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .svg-div{
+    width: 250%;
+  }
+  .desc-div{
+    width: auto;
+  }
+}
