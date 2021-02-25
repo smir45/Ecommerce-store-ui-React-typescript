@@ -73,29 +73,29 @@
   color: #505050;
 }
 
-.title-desc{
-    color: #505050;
+.title-desc {
+  color: #505050;
 }
 
-.line-segment{
-    border: 2px solid #383a60;
-    width: 170px;
-    margin-left: auto;
-    margin-right: auto;
+.line-segment {
+  border: 2px solid #383a60;
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.readmore-link{
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
+.readmore-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
 }
 
-.services-title{
-    padding: 15px;
-    border-bottom: 5px solid #383a60;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+.services-title {
+  padding: 15px;
+  border-bottom: 5px solid #383a60;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* 
   ##Device = Tablets, Ipads (landscape)
@@ -103,15 +103,38 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  .services-section{
+  .services-section {
     margin-left: auto;
     margin-right: auto;
   }
-  .svg-div{
+  .svg-div {
     width: 250%;
   }
-  .desc-div{
+  .desc-div {
     width: auto;
   }
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .title-area h1{
+    font-size: 20px;
+  }
+  .services-section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .svg-div {
+    display: none;
+  }
+  .desc-div {
+    width: 100%;
+  }
+  .line-segment{
+    border: 1px solid #383a60;
+  }
+
 }

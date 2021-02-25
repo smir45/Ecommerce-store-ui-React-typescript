@@ -139,7 +139,7 @@
   .caption-heading {
     font-size: 130%;
   }
-  .kerasvg{
+  .kerasvg {
     display: none;
   }
   .kerasvg2 {
@@ -152,6 +152,63 @@
     margin-top: 175px;
   }
 }
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .background-sec {
+    width: auto;
+    margin-top: 3px;
+  }
+  .caption-heading h1 {
+    font-size: 22px;
+    width: auto;
+    display: inline-flex;
+  }
+  .pitchlab {
+  font-size: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .caption-heading {
+    font-size: 15px;
+    width: 270px;
+    margin-left: -90px;
+  }
+  .kerasvg {
+    display: none;
+  }
+
+
+  /*---------------------------------------test after service section is made feb 26 ------------------*/
+  .navbar-section-bottom-container {
+    padding: 7px;
+  }
+  .nav-links-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.45);
+  }
+  
+  .navbarlinks {
+    
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 7px; */
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+  }
+}
+
 /* 
 @media screen and (max-width: 600px){
   
