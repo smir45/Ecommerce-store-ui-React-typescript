@@ -154,12 +154,69 @@
 }
 
 /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .background-sec{
+    width: auto;
+    margin-top:2px;
+  }
+  .caption-heading h1{
+    font-size: 20px;
+    display: inline-flex;
+    width: auto;
+  }
+  .pitchlab{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 10px;
+  }
+
+  .caption-heading{
+    font-size: 20px;
+    font-weight: 400;
+    width: auto;
+    margin-left: -80px;
+    margin-top: -35px;
+  }
+  .kerasvg{
+    display: none;
+  }
+  .kerasvg2{
+    display: none;
+  }
+  .kerasvg3{
+    background: url("../assets/navbarSVG/landscape_mobile_device.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 200px;
+    height: 250px;
+    margin-top: 120px;
+  }
+  .navbar-section-bottom-container{
+    border: 1px solid red;
+  }
+  .nav-links-container{
+    border: 1px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbarlinks{
+    font-size: 17px;
+    width: auto;
+  }
+}
+
+/* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
   .background-sec {
     width: auto;
     margin-top: 3px;
@@ -170,9 +227,9 @@
     display: inline-flex;
   }
   .pitchlab {
-  font-size: 2em;
-  margin-left: auto;
-  margin-right: auto;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
   }
   .caption-heading {
     font-size: 15px;
@@ -182,7 +239,6 @@
   .kerasvg {
     display: none;
   }
-
 
   /*---------------------------------------test after service section is made feb 26 ------------------*/
   .navbar-section-bottom-container {
@@ -195,9 +251,8 @@
     padding: 10px;
     background: rgba(255, 255, 255, 0.45);
   }
-  
+
   .navbarlinks {
-    
     margin-left: auto;
     margin-right: auto;
     /* margin: 7px; */

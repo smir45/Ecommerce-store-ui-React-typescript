@@ -30,6 +30,7 @@ export default function Navbar() {
               </div>
             </div>
             <div className="mid-2">
+              <div className="kerasvg3"></div>
             <div className="kerasvg2"></div>
               <div className="kerasvg">
                 
