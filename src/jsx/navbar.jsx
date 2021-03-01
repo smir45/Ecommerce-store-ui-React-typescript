@@ -14,15 +14,17 @@ export default function Navbar() {
               <h1 className="pitchlab">Pitchlab</h1>
               <div className="caption-heading">
                 <h1>
-                  Innovate better,
+                  Be Imaginative,
                   <br />
-                  <span className="heading-color">faster.</span>
+                  <span className="heading-color">Innovative.</span>
                 </h1>
                 <p className="paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Impedit, officia labore qui voluptatum eos perspiciatis quam
-                  beatae ab consequuntur vero fugit dolor iure autem delectus
-                  dicta sapiente quae, quibusdam alias.
+                  Pitchlab, a multinational company headquartered at Morang,
+                  Nepal believes in making impact in the field of technology and
+                  digital marketing as it is very important to have freedom to
+                  explore new ideas without being judged. So, let’s
+                  revolutionize the business industry together with creative
+                  approach.
                 </p>
                 <Link className="get-started" to="/contact">
                   Get Started
@@ -30,12 +32,9 @@ export default function Navbar() {
               </div>
             </div>
             <div className="mid-2">
-              <div className="kerasvg3">
-                
-              </div>
-            <div className="kerasvg2"></div>
+              <div className="kerasvg3"></div>
+              <div className="kerasvg2"></div>
               <div className="kerasvg">
-                
                 <svg
                   width="445"
                   height="426"
@@ -163,11 +162,9 @@ export default function Navbar() {
               <Link className="navbarlinks" to="/">
                 Home
               </Link>
-              <a href="#service" className="navbarlinks">Service</a>
-              
-              {/* <Link className="navbarlinks" to="/service">
+              <Link className="navbarlinks" to="/service">
                 Service
-              </Link> */}
+              </Link>
               <Link className="navbarlinks" to="/career">
                 Career
               </Link>
