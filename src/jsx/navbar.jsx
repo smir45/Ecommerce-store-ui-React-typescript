@@ -161,9 +161,11 @@ export default function Navbar() {
               <Link className="navbarlinks" to="/">
                 Home
               </Link>
-              <Link className="navbarlinks" to="/service">
+              <a href="#service" className="navbarlinks">Service</a>
+              
+              {/* <Link className="navbarlinks" to="/service">
                 Service
-              </Link>
+              </Link> */}
               <Link className="navbarlinks" to="/career">
                 Career
               </Link>

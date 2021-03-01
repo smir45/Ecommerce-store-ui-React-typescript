@@ -1,20 +1,29 @@
-import React from 'react';
-import TopNavbar from './topnavber';
-import Navbar from './navbar';
-import HomeService from './homeservices';
-import OurClients from './ourclients';
-import Banner from './banner';
-import SecFooter from './secondfooter';
+import React from "react";
+import TopNavbar from "./topnavber";
+import Navbar from "./navbar";
+import HomeService from "./homeservices";
+import OurClients from "./ourclients";
+import Banner from "./banner";
+import SecFooter from "./secondfooter";
+import "../css/home.css";
 
-export default function Home(){
-    return(
-        <div className="home-main-container">
-            <TopNavbar/>
-            <Navbar />
-            <HomeService />
-            <OurClients/>
-            <Banner/>
-            <SecFooter/>
-        </div>
-    );
+export default function Home() {
+  return (
+    <div className="home-main-container">
+      <section className="top">
+        <TopNavbar />
+      </section>
+      <section className="navbar">
+        <Navbar />
+      </section>
+
+      <section id="service">
+        <HomeService />
+      </section>
+
+      <OurClients />
+      <Banner />
+      <SecFooter />
+    </div>
+  );
 }

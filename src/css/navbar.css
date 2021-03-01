@@ -29,6 +29,7 @@
   width: fit-content;
   padding: 13px;
   background: rgba(255, 255, 255, 0.45);
+  animation: slideInLeft 2s ease-in;
 }
 
 .navbarlinks {
@@ -51,6 +52,7 @@
   font-size: 25px;
   text-align: left;
   margin: 0;
+  animation: slideIn 1s ease-in;
 }
 .pitchlab {
   font-size: 4em;
@@ -58,15 +60,28 @@
   padding: 20px;
   line-height: 20px;
   margin: 15 0;
+  animation: slideIn 1s ease-in;
 }
 .heading-color {
   color: goldenrod;
   text-decoration: underline;
+  animation: slideIn 1s ease-in;
 }
 .paragraph {
   line-height: 35px;
   color: #f1f1f1;
+  animation: slideIn 1s ease-in;
 }
+
+@keyframes slideIn{
+  0%{
+      opacity: 0%;
+  }
+  100%{
+      opacity: 100%;
+  }
+}
+
 #mid-1 {
   width: 50%;
   padding: 35px 0 35px 85px;
@@ -74,6 +89,15 @@
 }
 .mid-2 {
   width: 50%;
+}
+
+@keyframes slideInLeft{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100;
+  }
 }
 
 .kerasvg {

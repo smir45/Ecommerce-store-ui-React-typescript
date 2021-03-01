@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  scroll-behavior: smooth;
+  transition: all .5s ease;
 }
 
 .App-logo {
