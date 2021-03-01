@@ -4,7 +4,7 @@
   border: 1px solid;
   border-radius: 50%;
   margin: 20px;
-  background: url('../assets/navbarlogo.png');
+  background: url("../assets/navbarlogo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
   border: 1px solid;
   border-radius: 50%;
   margin: 20px;
-  background: url('../assets/navbarlogo.png');
+  background: url("../assets/navbarlogo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
   border: 1px solid;
   border-radius: 50%;
   margin: 20px;
-  background: url('../assets/navbarlogo.png');
+  background: url("../assets/navbarlogo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
   border: 1px solid;
   border-radius: 50%;
   margin: 20px;
-  background: url('../assets/navbarlogo.png');
+  background: url("../assets/navbarlogo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@
   border: 1px solid;
   border-radius: 50%;
   margin: 20px;
-  background: url('../assets/navbarlogo.png');
+  background: url("../assets/navbarlogo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@
   border: 1px solid;
   border-radius: 50%;
   margin: 20px;
-  background: url('../assets/navbarlogo.png');
+  background: url("../assets/navbarlogo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-repeat: no-repeat;
@@ -70,14 +70,80 @@
   margin: 7px 0;
 }
 
-.logo-section{
-    display: flex;
-    width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
+.logo-section {
+  display: flex;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.link-pic{
-    text-decoration: none;
-    color: #505050;
+.link-pic {
+  text-decoration: none;
+  color: #505050;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .logos-1 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .logos-2 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .logos-3 {
+    width: 100px;
+    height: 100px;
+  }
+  .logos-4 {
+    width: 100px;
+    height: 100px;
+  }
+  .logos-5 {
+    width: 100px;
+    height: 100px;
+  }
+  .logos-6 {
+    display: none;
+  }
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .logo-section{
+    display:grid;
+  }
+  .logos-1 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .logos-2 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .logos-3 {
+    /* width: 120px;
+    height: 120px; */
+    display: none;
+  }
+  .logos-4 {
+    /* width: 120px;
+    height: 120px; */
+    display: none;
+  }
+  .logos-5 {
+    /* width: 120px;
+    height: 120px;*/
+    display: none;
+  }
+  .logos-6 {
+    display: none;
+  }
 }
