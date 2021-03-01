@@ -38,29 +38,7 @@
   cursor: pointer;
 }
 
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-/* 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .topbar-main-container {
-    justify-content: space-between;
-    position: relative;
-    border: 1px solid red;
-  }
-  .logo {
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-  }
-  .social-icons {
-    margin-top: -12px;
-    margin-right: 10px;
-  }
-} */
 
-/*480 px responsive*/
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   .topbar-main-container {
     justify-content: space-between;
@@ -78,7 +56,7 @@
   }
 }
 
-/* 320 px responsive*/
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .topbar-main-container {
     justify-content: space-between;

@@ -82,13 +82,7 @@
   color: #505050;
 }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
+@media (min-width: 1281px) {
   .logos-1 {
     width: 100px;
     height: 100px;
@@ -108,19 +102,42 @@
     height: 100px;
   }
   .logos-5 {
-   width: 100px;
-   height: 100px; 
+    width: 100px;
+    height: 100px;
+  }
+  .logos-6 {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .logos-1 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .logos-2 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .logos-3 {
+    width: 100px;
+    height: 100px;
+  }
+  .logos-4 {
+    width: 100px;
+    height: 100px;
+  }
+  .logos-5 {
+    width: 100px;
+    height: 100px;
   }
   .logos-6 {
     width: 100px;
     height: 100px;
   }
-  
 }
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .logos-1 {
@@ -148,16 +165,9 @@
   .logos-6 {
     display: none;
   }
-
-  
 }
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
   .logos-1 {
     width: 100px;
     height: 100px;
@@ -184,10 +194,6 @@
     display: none;
   }
 }
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
 
 @media (min-width: 481px) and (max-width: 767px) {
   .logo-section {
@@ -220,10 +226,6 @@
     display: none;
   }
 }
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
 
 @media (min-width: 320px) and (max-width: 479px) {
   .logo-section {
@@ -240,18 +242,12 @@
   }
 
   .logos-3 {
-    /* width: 120px;
-    height: 120px; */
     display: none;
   }
   .logos-4 {
-    /* width: 120px;
-    height: 120px; */
     display: none;
   }
   .logos-5 {
-    /* width: 120px;
-    height: 120px;*/
     display: none;
   }
   .logos-6 {

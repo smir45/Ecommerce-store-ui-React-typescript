@@ -41,3 +41,17 @@
 .second-navlinks:hover{
     color: #000;
 }
+@media (min-width:320px) and (max-width:480px){
+    .logo-container{
+        width: 120px;
+    }
+    .nav-links-secondary{
+        width: 280px;
+        margin-left: 20px;
+    }
+    .second-navlinks{
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

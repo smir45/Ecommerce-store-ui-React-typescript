@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
              <div className="elements-links-footer">
                  <Link className="footer-links-elements">About</Link>
                  <Link className="footer-links-elements">FAQ</Link>
-                 <Link className="footer-links-elements">Terms & Conditions</Link>
+                 <Link className="footer-links-elements">Terms &amp; Conditions</Link>
                  <Link className="footer-links-elements">Privacy Policy</Link>
                  <Link className="footer-links-elements">Cookie Policy</Link>
                  <Link className="footer-links-elements" to="/career" >Careers</Link>

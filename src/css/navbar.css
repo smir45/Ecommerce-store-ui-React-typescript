@@ -73,12 +73,12 @@
   animation: slideIn 1s ease-in;
 }
 
-@keyframes slideIn{
-  0%{
-      opacity: 0%;
+@keyframes slideIn {
+  0% {
+    opacity: 0%;
   }
-  100%{
-      opacity: 100%;
+  100% {
+    opacity: 100%;
   }
 }
 
@@ -91,11 +91,11 @@
   width: 50%;
 }
 
-@keyframes slideInLeft{
-  0%{
+@keyframes slideInLeft {
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 100;
   }
 }
@@ -148,62 +148,51 @@
   height: 100vh;
 }
 
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
+
 
 @media (min-width: 1281px) {
-  
-  .paragraph{
+  .paragraph {
     font-weight: 400;
   }
-  
 }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
-  .background-sec{
+  .background-sec {
     width: auto;
   }
-  .caption-heading h1{
+  .caption-heading h1 {
     font-size: 35px;
   }
-  .paragraph{
+  .paragraph {
     font-size: 20px;
   }
-  .pitchlab{
+  .pitchlab {
     font-size: 55px;
   }
 }
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-  .background-sec{
+  .background-sec {
     width: auto;
   }
-  .caption-heading h1{
+  .caption-heading h1 {
     font-size: 25px;
     display: inline-flex;
   }
-  .kerasvg{
+  .kerasvg {
     display: none;
   }
-  .paragraph{
+  .kerasvg2 {
+    display: none;
+  }
+  .paragraph {
     width: 350px;
     font-weight: 400;
   }
-  .kerasvg3{
+  .kerasvg3 {
     background: url("../assets/kera3.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -215,10 +204,7 @@
     margin-left: -14%;
   }
 }
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
+
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .background-sec {
@@ -245,60 +231,51 @@
   }
 }
 
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
 
 @media (min-width: 481px) and (max-width: 767px) {
-
-  .background-sec{
+  .background-sec {
     width: auto;
-    margin-top:2px;
+    margin-top: 2px;
   }
-  .caption-heading h1{
+  .caption-heading h1 {
     font-size: 20px;
     display: inline-flex;
     width: auto;
   }
-  .pitchlab{
+  .pitchlab {
     font-size: 30px;
     font-weight: 900;
     margin-top: 10px;
     margin-left: -24%;
   }
-  .paragraph{
+  .paragraph {
     width: 450px;
     font-weight: 300;
   }
-  .caption-heading{
+  .caption-heading {
     font-size: 20px;
     font-weight: 400;
     width: auto;
     margin-left: -80px;
     margin-top: -35px;
   }
-  .kerasvg{
+  .kerasvg {
     display: none;
   }
-  .kerasvg2{
+  .kerasvg2 {
     display: none;
   }
 
-  .nav-links-container{
+  .nav-links-container {
     margin-left: auto;
     margin-right: auto;
   }
-  .navbarlinks{
+  .navbarlinks {
     font-size: 17px;
     width: auto;
   }
 }
 
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
 
 @media (min-width: 320px) and (max-width: 480px) {
   .background-sec {
@@ -347,73 +324,3 @@
     transition: all 0.5s ease;
   }
 }
-
-/* 
-@media screen and (max-width: 600px){
-  
-  .background-sec{
-    width: 100%;
-    
-    margin-top: 1px;
-  }
-  .navbar-mid-components {
-    height: 60vh;
-    display: flex;
-  }
-  .navbar-section-bottom-container{
-    width: auto;
-    
-  }
-  .nav-links-container{
-    margin-top: -5%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .navbar-mid-components{
-    width: 40%;
-    border: 5px solid black;
-    display: inline;
-  }
-  .pitchlab{
-    font-size: 2em;
-    padding: 5px;
-    margin-left: -18%;
-    margin-top: -15%;
-  }
-  .caption-heading{
-    font-size: 15px;
-    margin-left: -22%;
-    width: auto;
-  }
-
-
-  .caption-heading h1{
-    font-size: 22px;
-    width: 80%;
-    display: flex;
-    font-weight: 600;
-  }
-  .kerasvg{
-    display: none;
-  }
-}
-@media screen and (max-width:320px){
-  .background-sec{
-    width: 100%;
-  }
-  .navbar-mid-components{
-    border: 1px solid red;
-  }
-  .navbar-section-bottom-container{
-    border: 1px solid red;
-  }
-  .nav-links-container{
-    margin-left: 3%;
-  }
-  .caption-heading{
-    width: 200px;
-    font-size: 12px;
-    text-align:left;
-    border: 1px solid red;
-  }
-} */

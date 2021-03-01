@@ -1,59 +1,68 @@
-.logo-footer{
-    text-align: center;
-    color: #f1f1f1;
-    margin: 25px;
+.logo-footer {
+  text-align: center;
+  color: #f1f1f1;
+  margin: 25px;
 }
-.secfooter-main-container{
-    padding: 15px;
-    /* margin-top: 35px; */
-    background: #383a60;
+.secfooter-main-container {
+  padding: 15px;
+  /* margin-top: 35px; */
+  background: #383a60;
 }
-.branding-footer{
-    color: #909090;
+.branding-footer {
+  color: #909090;
 }
-.elements-links-footer{
-    width: fit-content;
-    padding: 25px;
-    margin-left: auto;
-    margin-right: auto;
+.elements-links-footer {
+  width: fit-content;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.footer-links-elements{
-    color: #fff;
-    text-decoration: none;
-    padding: 15px;
-    margin-left: 15px;
-    transition: all .5s ease;
+.footer-links-elements {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  margin-left: 15px;
+  transition: all 0.5s ease;
 }
-.footer-links-elements:hover{
-    color: #909090;
+.footer-links-elements:hover {
+  color: #909090;
 }
-.social-icons-elements{
-    padding: 15px;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    transition: all .5s ease;
+.social-icons-elements {
+  padding: 15px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s ease;
 }
-.footer-branding-elements{
-    text-decoration: none;
+.footer-branding-elements {
+  text-decoration: none;
 }
-.footer-social-elements{
-    color: #f1f1f1;
-    text-decoration: none;
-    padding: 15px;
-    font-size: 25px;
-    transition: all .5s ease;
-
+.footer-social-elements {
+  color: #f1f1f1;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 25px;
+  transition: all 0.5s ease;
 }
-.footer-social-elements:hover{
-    color: #909090;
+.footer-social-elements:hover {
+  color: #909090;
 }
-.copyrightinfo-footer{
-    padding: 15px;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+.copyrightinfo-footer {
+  padding: 15px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
-.copyright-info{
-    color: #909090;
+.copyright-info {
+  color: #909090;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .elements-links-footer {
+    display: grid;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .elements-links-footer {
+    display: grid;
+  }
 }
