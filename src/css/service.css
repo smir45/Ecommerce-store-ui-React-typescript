@@ -1,0 +1,30 @@
+.background-section{
+    height: 50vh;
+    background: #383a60;
+    padding: 5px;
+
+
+}
+
+.pitchlab-watermark{
+    width: 50%;
+    height: 20vh;
+    border: 1px solid white;
+    margin: 7em auto;
+    background: url('../assets/secondary/pitchlab.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: SlideInRight 1s;
+}
+
+@keyframes SlideInRight{
+    0%{
+        transform: translateX(-50px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateX(50px);
+        opacity: 100%;
+    }
+}
