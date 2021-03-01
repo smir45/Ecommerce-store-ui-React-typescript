@@ -3,6 +3,7 @@ import './App.css';
 import Home from './jsx/Home';
 import Contact from './jsx/contactus';
 import Service from './jsx/service';
+import Careers from './jsx/careers';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/service" exact component={Service} />
-        <Route path="/" exact component={Home} />
+        <Route path="/career" exact component={Careers} />
         <Route path="/contact" exact component={Contact} />
 
       </Switch>
