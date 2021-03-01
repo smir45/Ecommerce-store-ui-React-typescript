@@ -123,6 +123,74 @@
 .trial {
   height: 100vh;
 }
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  .paragraph{
+    font-weight: 400;
+  }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .background-sec{
+    width: auto;
+  }
+  .caption-heading h1{
+    font-size: 35px;
+  }
+  .paragraph{
+    font-size: 20px;
+  }
+  .pitchlab{
+    font-size: 55px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .background-sec{
+    width: auto;
+  }
+  .caption-heading h1{
+    font-size: 25px;
+    display: inline-flex;
+  }
+  .kerasvg{
+    display: none;
+  }
+  .paragraph{
+    width: 350px;
+    font-weight: 400;
+  }
+  .kerasvg3{
+    background: url("../assets/kera3.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-width: 300px;
+    max-width: 500px;
+    height: 350px;
+    margin-top: 45%;
+    margin-left: -14%;
+  }
+}
 /* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
@@ -173,8 +241,12 @@
     font-size: 30px;
     font-weight: 900;
     margin-top: 10px;
+    margin-left: -24%;
   }
-
+  .paragraph{
+    width: 450px;
+    font-weight: 300;
+  }
   .caption-heading{
     font-size: 20px;
     font-weight: 400;
@@ -188,20 +260,8 @@
   .kerasvg2{
     display: none;
   }
-  .kerasvg3{
-    background: url("../assets/navbarSVG/landscape_mobile_device.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 200px;
-    height: 250px;
-    margin-top: 120px;
-  }
-  .navbar-section-bottom-container{
-    border: 1px solid red;
-  }
+
   .nav-links-container{
-    border: 1px solid blue;
     margin-left: auto;
     margin-right: auto;
   }

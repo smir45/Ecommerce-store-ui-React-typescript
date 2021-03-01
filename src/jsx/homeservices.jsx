@@ -14,7 +14,7 @@ export default function HomeService(){
                             <h2 className="title-desc">Web Development</h2>
                             <div className="line-segment"></div>
                             <div className="description-div">
-                                <p className="descriptionall">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio dicta libero mollitia dolorem, delectus veniam necessitatibus. Quidem ipsa odit tempore ab ea, ipsam minus! Libero officia id placeat dolores!
+                                <p className="descriptionall"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio dicta libero mollitia dolorem, delectus veniam necessitatibus. Quidem ipsa odit tempore ab ea, ipsam minus! Libero officia id placeat dolores!
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sunt adipisci quaerat culpa iure amet libero, distinctio, quo reprehenderit quia totam mollitia nihil sint minus nulla quidem nisi molestias eum.
                                 <br/><br/><Link to="/service" className="readmore-link" >Read More..</Link></p>
                             </div>

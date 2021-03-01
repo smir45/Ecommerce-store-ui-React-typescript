@@ -97,6 +97,26 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .services-section{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .svg-div{
+    width: 50%;
+  }
+  .desc-div{
+    width: 50%;
+  }
+  
+}
 /* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
@@ -113,6 +133,26 @@
   .desc-div {
     width: auto;
   }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.services-section{
+  margin-left: auto;
+  margin-right: auto;
+}
+.svg-div{
+  display: none;
+}
+.desc-div{
+  width: auto;
+}
+  
 }
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
