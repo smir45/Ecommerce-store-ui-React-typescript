@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 export default function Banner() {
   return (
     <div className="banner-main-container">
+      
       <div className="banner-elements">
         <h1 className="title-banner">Are You Ready To grow Online?</h1>
         <div className="subtitle-banner-div">
