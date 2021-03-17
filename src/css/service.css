@@ -1,7 +1,7 @@
 .background-section {
   height: 50vh;
-  width: 100%;
-  background: url("../assets/secondary/wave.svg");
+  /* width: 100%;
+  background: url("../assets/secondary/wave.svg"); */
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -18,8 +18,8 @@
   height: 425px;
   width: 50%;
   margin-top: 25px;
-  margin-left: 30px;
-  background: url("../assets/secondary/serv.svg");
+  /* margin-left: 30px;
+  background: url("../assets/secondary/serv.svg"); */
   background-size: cover;
 }
 
