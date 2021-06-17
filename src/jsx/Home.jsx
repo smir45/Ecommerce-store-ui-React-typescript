@@ -5,7 +5,7 @@ import HomeService from "./homeservices";
 import OurClients from "./ourclients";
 import Banner from "./banner";
 import SecFooter from "./secondfooter";
-import "../css/home.css";
+import "../scss/home.scss";
 
 export default function Home() {
   return (

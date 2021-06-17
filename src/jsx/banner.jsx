@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/banner.css";
+import "../scss/banner.scss";
 import { Link } from "react-router-dom";
 
 export default function Banner() {

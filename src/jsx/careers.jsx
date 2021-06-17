@@ -1,7 +1,7 @@
 import React from 'react';
 import SecondNavbar from './navbar-secondary';
 import SecFooter from './secondfooter';
-import '../css/careers.css';
+import '../scss/careers.scss';
 
 export default function Careers(){
     return(

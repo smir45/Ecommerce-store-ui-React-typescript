@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/ourclients.css';
+import '../scss/ourclients.scss';
 
 export default function OurClients(){
     return(

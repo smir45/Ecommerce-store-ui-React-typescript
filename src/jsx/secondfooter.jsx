@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/secfooter.css';
+import '../scss/secfooter.scss';
 import { FaInstagram, FaTwitter, FaFacebookF, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 

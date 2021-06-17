@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../css/navbar-secondary.css';
+import '../scss/navbar-secondary.scss';
 
 export default function SecondNavbar(){
     return(

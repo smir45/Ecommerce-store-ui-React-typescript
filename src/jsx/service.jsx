@@ -1,6 +1,6 @@
 import React from "react";
 import SecondNavbar from "./navbar-secondary";
-import "../css/service.css";
+import "../scss/service.scss";
 import { FaArrowDown } from "react-icons/fa";
 import SecFooter from "./secondfooter";
 

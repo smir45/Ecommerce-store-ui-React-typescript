@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
-import "../css/top-navbar.css";
+import "../scss/top-navbar.scss";
 import { Link } from "react-router-dom";
 
 export default function TopNavbar() {

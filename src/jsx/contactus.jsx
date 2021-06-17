@@ -1,6 +1,6 @@
 import React from 'react';
 import SecondNavbar from './navbar-secondary';
-import '../css/contact.css';
+import '../scss/contact.scss';
 import { FaPaperPlane } from 'react-icons/fa';
 import SecFooter from './secondfooter';
 
