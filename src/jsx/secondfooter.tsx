@@ -1,8 +1,7 @@
 import React from "react";
 import '../scss/secfooter.scss';
 import { FaInstagram, FaTwitter, FaFacebookF, FaYoutube } from "react-icons/fa";
-import { Link } from "react-router-dom";
-
+import { Link } from 'react-router-dom';
  export default function SecFooter(){
      return(
          <div className="secfooter-main-container">
